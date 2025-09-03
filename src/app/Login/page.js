@@ -1,9 +1,18 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function Login() {
   const [showPassword, setShowPassword] = useState(false);
+  const [usuario, setUsuario] = useState("");
+  const [contrasena, setContrasena] = useState("");
+  const router = useRouter();
+
+  const handleLogin = () => {
+    // Aquí podrías validar usuario/contraseña si quieres
+    router.push("/Home");
+  };
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-4 bg-gradient-to-b from-[#192a67] via-[#192a67]/90 via-40% to-white">
@@ -40,6 +49,8 @@ export default function Login() {
           </label>
           <input
             type="text"
+            value={usuario}
+            onChange={(e) => setUsuario(e.target.value)}
             placeholder="Ingresa tu usuario"
             className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#192a67]"
           />
@@ -60,6 +71,8 @@ export default function Login() {
           <div className="relative">
             <input
               type={showPassword ? "text" : "password"}
+              value={contrasena}
+              onChange={(e) => setContrasena(e.target.value)}
               placeholder="Ingresa tu contraseña"
               className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#192a67]"
             />
@@ -74,7 +87,10 @@ export default function Login() {
         </div>
 
         {/* Botón */}
-        <button className="w-full bg-gradient-to-r from-[#192a67] to-[#3b4d8a] text-white py-2 rounded-xl font-semibold hover:opacity-90 transition">
+        <button
+          onClick={handleLogin}
+          className="w-full bg-gradient-to-r from-[#192a67] to-[#3b4d8a] text-white py-2 rounded-xl font-semibold hover:opacity-90 transition"
+        >
           Entrar
         </button>
 
