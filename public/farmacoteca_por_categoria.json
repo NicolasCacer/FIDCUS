@@ -1,0 +1,297 @@
+{
+  "Liquidos y electrolitos": {
+    "Bicarbonato de sodio": {
+      "presentacion": "Amp 10 mEq / 10 CC",
+      "seguridad": "Dosis  de seguridad:\n\n1 - 5 meq/kg/dosis",
+      "via": "IV \nCentral - Periferico.\n( Ph: 7.0 - 8.5 )",
+      "tiempo": "Infusion para paso maximo de\n2 a 4  hrs según respuesta\n y tolerancia del paciente al\n medicamento\n\nInfusion para paso en 2 horas a una velocidad maxima de 1mEq/kg/hora",
+      "concentracion": "1 mEq /cc",
+      "dilucion": "24 hrs",
+      "unidad": "mEq/kg/hr",
+      "incompatibilidades": [
+        "Alopurinol",
+        "Amiodarona",
+        "Anfotericina B",
+        "Ampicilina",
+        "Caspofungina",
+        "Cefuroxime",
+        "Cloruro de calcio",
+        "Diazepam",
+        "Difehidramina",
+        "Dobutamina",
+        "Doxiciclina",
+        "Epinefrina",
+        "Fenitoina",
+        "Ganciclovir",
+        "Gluconato de calcio",
+        "Haloperidol",
+        "Midazolam",
+        "Noradrenalina",
+        "Ondansetron",
+        "Trimetroprim Sulfametoxazol",
+        "Verapamilo",
+        "Vincristina"
+      ],
+      "estabilidad": "",
+      "luz": "No Aplica.",
+      "observaciones": [
+        "Verificar que el medicamento sea administrado a través de bomba de infusion, a traves de una via exclusiva",
+        "Evaluar permeabilidad y funcionamiento del acceso venoso elegido para la administración del medicamento",
+        "NO reconstituya el medicamento con lactato de ringer como vehiculo de inoculacion",
+        "Realizar lavado del acceso venoso previo y posterior a la  administración del medicamento por riesgo de flebitis química",
+        "La administracion directa del medicamento esta contraindicada, solamente se podrá administrar de esta manera intraparo",
+        "La via ideal de eleccion para la administracion del medicamento debera ser central por alto riesgo de necrosis en caso de extravasacion",
+        "NO exceda la velocidad maxima permitida contemplada en 1 mEq/kg/hr"
+      ]
+    },
+    "Cloruro de potasio": {
+      "presentacion": "Amp 20 meq/10cc (2 mEq/cc)",
+      "seguridad": "Rango de seguridad\n\nVia Periferica.\n< 4 mEq/hr \n\nVia Central.\n10 - 20 mEq central.",
+      "via": "IV \nCentral - Periferico.\n( Ph 7.0 )",
+      "tiempo": "Infusión continua dependiente \nde los requerimientos de reposicion\nde potasio serico del paciente.",
+      "concentracion": "Periferico\n\n80 mEq/L\n\nCentral:\n\n400 mEq/L",
+      "dilucion": "24 hrs",
+      "unidad": "mEq/hr",
+      "incompatibilidades": [
+        "Anfotericina B",
+        "Fenitoina Sodica",
+        "Trimetroprim Sulfametoxazol"
+      ],
+      "estabilidad": "",
+      "luz": "No aplica.",
+      "observaciones": [
+        "Verifique que el medicamento sea administrado a través de bomba de infusion",
+        "En reposicion administre a traves de una via unica",
+        "Evalúe una adecuada permeabilidad y funcionamiento del acceso venoso elegido para la administración del medicamento",
+        "NO BOLOS a altas velocidades por encima de los valores permitidos por alto riesgo de generacion de arritmias cardiacas severas",
+        "NO USAR DAD5% para las infusiones de potasio cuyo fin sea la reposicion serica de este electrolito",
+        "Como su reposición se hace de forma aguda",
+        "se recomienda  administrar  en forma separada , evitando la incompatibilidad terapéutica"
+      ]
+    },
+    "Fosfato de potasio": {
+      "presentacion": "10cc = 3.8 mEq potasio /1 ml + 2,6 mEq fosforo/1 ml 1mmol de fosfato= 31 mg de fosforo 1mg fosforo = 0,032 mmol fosfato 1 mmol fosforo: 1-1.5 mEq/k",
+      "seguridad": "Dosis de seguridad\n\n0.08 - 0.64 mmol/kg/dosis.",
+      "via": "IV \nCentral - Periferico.\n(Ph: 8.5- 9.7)",
+      "tiempo": "6 horas",
+      "concentracion": "Central \n 0,10 mmol/cc\n\nPeriferico\n0,05 mmol/cc",
+      "dilucion": "24 hrs",
+      "unidad": "mmol/Kg",
+      "incompatibilidades": [
+        "Amiodarona",
+        "Caspofungina",
+        "Dobutamina",
+        "Doripenem",
+        "Lactato de ringer"
+      ],
+      "estabilidad": "",
+      "luz": "No aplica",
+      "observaciones": [
+        "Verifique que el medicamento sea administrado a través de bomba de infusion con un tiempo de 4 a 6 hrs",
+        "Evalúe una adecuada permeabilidad y funcionamiento del acceso venoso elegido para la administración del medicamento",
+        "Medicamento Vesicante irritante- dependiente de concentracion",
+        "Evite la administracion rapida del medicamento por riesgo de efectos cardiacos potencialmente mortales",
+        "Garantice monitoreo electrocargiografico",
+        "Recuerde que la Rata maxima de infusion por via periferica sera de 6,4 - 10 mmol de fosfato / h y por via via central de 15-23 mmol fosafato / h"
+      ]
+    },
+    "Gluconato de calcio": {
+      "presentacion": "Amp de 10ml 10% (100mg/ml) Amp 1 gr / 10cc",
+      "seguridad": "Rango de seguridad\n\n1-6 gr dosis.\n\nInfusion continua  Maxima:\n200 mg/min",
+      "via": "IV Central - periferico \n( Ph: 5.5- 7.5 )",
+      "tiempo": "4 horas infusion extendida",
+      "concentracion": "10 mg/ml",
+      "dilucion": "24 hrs",
+      "unidad": "mg/min",
+      "incompatibilidades": [
+        "Adrenalina",
+        "Anfotericina B",
+        "Clindamicina",
+        "Fluconazol",
+        "Bicarbonato",
+        "Fosfatos",
+        "Magnesio",
+        "Metoclopramida",
+        "MetilPrednisolona",
+        "Ceftriaxona"
+      ],
+      "estabilidad": "",
+      "luz": "No aplica",
+      "observaciones": [
+        "Verifique que el medicamento sea administrado a través de bomba de infusion",
+        "Evalúe una adecuada permeabilidad y funcionamiento del acceso venoso elegido para la administración del medicamento la exravasacion del medicamento  puedde producir necrosis de tejidos profundos",
+        "No exceda una velocidad de infusion maxima de 200 mg/min",
+        "Si debe corregir hipocalcemia e hipomagnesemia a la vez, debe iniciar primero la infusion de magnesio y luego la de Calcio, Ya que este ultimo disminuye los niveles sericos de magnesio",
+        "Se recomienda el uso de filtro de 0.2 micras"
+      ]
+    },
+    "Lactato de ringer 0.5%": {
+      "presentacion": "(137 mMol/L)",
+      "seguridad": "Rango de seguridad\n\nLa dosis ira de acuerdo a deficit de Agua que tenga el paciente",
+      "via": "IV \nCentral - Periferica.",
+      "tiempo": "24  hrs según respuesta\n y tolerancia del paciente al\n medicamento",
+      "concentracion": "Na 73.5 mEq/L\nk 2 mEq/lL\nCa 2.25 mEq/L\nCl 78 mEq/L\nLactato 14 mEq/L",
+      "dilucion": "24 hrs",
+      "unidad": "cc/hr",
+      "incompatibilidades": [
+        "Manitol"
+      ],
+      "estabilidad": "",
+      "luz": "No Aplica.",
+      "observaciones": [
+        "Verifique que el medicamento sea administrado a través de bomba de infusion",
+        "Evalúe una adecuada permeabilidad y funcionamiento del acceso venoso elegido para la administración del medicamento",
+        "Solucion apta para administracion tanto por Via Periferica como central"
+      ]
+    },
+    "Solucion Hipertonica 7.5%": {
+      "presentacion": "",
+      "seguridad": "Rango de seguridad",
+      "via": "IV \nCentral",
+      "tiempo": "1 a 2 cc por kilo de peso",
+      "concentracion": "1280meq/L\n128meq/100ml",
+      "dilucion": "24 hrs",
+      "unidad": "cc/hr",
+      "incompatibilidades": [
+        "Manitol"
+      ],
+      "estabilidad": "",
+      "luz": "No Aplica.",
+      "observaciones": [
+        "Verifique que el medicamento sea administrado a través de bomba de infusion",
+        "Evalúe una adecuada permeabilidad y funcionamiento del acceso venoso elegido para la administración del medicamento",
+        "Utilizar una via exclusiva para la administracion de dicha solucion",
+        "Solucion apta para administracion UNICAMENTE POR VIA CENTRAL"
+      ]
+    },
+    "Solucion hipertonica 2 %": {
+      "presentacion": "",
+      "seguridad": "Rango de seguridad\n\nDosis de acuerdo a deficit",
+      "via": "IV\nCentral - periferico.",
+      "tiempo": "dosis kg / hora",
+      "concentracion": "240 mEq Na /L\n\n(24 mEq/100ml)",
+      "dilucion": "24 hrs",
+      "unidad": "cc/hr",
+      "incompatibilidades": [
+        "Manitol"
+      ],
+      "estabilidad": "",
+      "luz": "No Aplica.",
+      "observaciones": [
+        "Verifique que el medicamento sea administrado a través de bomba de infusion",
+        "Evalúe una adecuada permeabilidad y funcionamiento del acceso venoso elegido para la administración del medicamento",
+        "Utilizar una via exclusiva para la administracion de dicha solucion",
+        "Solucion apta para administracion por via central y periferica",
+        "No exceder un Sodio corregido de 4 - 6 mEq/dia (MAXIMO PERMITIDO 12 mEq/dia)"
+      ]
+    },
+    "Solucion hipertonica 3%": {
+      "presentacion": "",
+      "seguridad": "Rango de seguridad\n1 a 2 cc por kg\nDosis de acuerdo a deficit",
+      "via": "IV \nCentral",
+      "tiempo": "dosis kg / hora",
+      "concentracion": "513 mEq Na /L\n\n(51,3mEq/100ml)",
+      "dilucion": "24 hrs",
+      "unidad": "cc/kg/h",
+      "incompatibilidades": [
+        "Manitol"
+      ],
+      "estabilidad": "",
+      "luz": "No Aplica.",
+      "observaciones": [
+        "Verifique que el medicamento sea administrado a través de bomba de infusion",
+        "Evalúe una adecuada permeabilidad y funcionamiento del acceso venoso elegido para la administración del medicamento",
+        "Utilizar una via exclusiva para la administracion de dicha solucion",
+        "Solucion apta para administracion UNICAMENTE POR VIA CENTRAL",
+        "No exceder un Sodio corregido de 4 - 6 mEq/dia (MAXIMO PERMITIDO 12 mEq/dia)"
+      ]
+    },
+    "Solucion salina al 0.45%": {
+      "presentacion": "",
+      "seguridad": "Rango de seguridad\n\nDosis de acuerdo a deficit de Agua y Na que tenga el paciente.",
+      "via": "IV\nCentral - periferico.",
+      "tiempo": "24  hrs según respuesta\n y tolerancia del paciente al\n medicamento",
+      "concentracion": "77 mEq NaCl/L",
+      "dilucion": "24 hrs",
+      "unidad": "cc/hr",
+      "incompatibilidades": [
+        "Manitol"
+      ],
+      "estabilidad": "",
+      "luz": "No Aplica.",
+      "observaciones": [
+        "Verifique que el medicamento sea administrado a través de bomba de infusion",
+        "Evalúe una adecuada permeabilidad y funcionamiento del acceso venoso elegido para la administración del medicamento",
+        "No exceder un Sodio corregido de 4 - 6 mEq/dia (MAXIMO PERMITIDO 12 mEq/dia)"
+      ]
+    },
+    "Solucion Polarizante": {
+      "presentacion": "",
+      "seguridad": "Rango de seguridad\n\nLa dosis ira de acuerdo a la correccion de K que se quiera realizar.",
+      "via": "IV\nCentral - Periferico.",
+      "tiempo": "1 Hr",
+      "concentracion": "-",
+      "dilucion": "6 hrs",
+      "unidad": "cc/hr",
+      "incompatibilidades": [
+        "Cisplatino",
+        "Diazepam",
+        "Difemhidramina",
+        "Fenitoina",
+        "Hidroxicina",
+        "Ketamina",
+        "Labetalol",
+        "Piperacilina Tazobactam",
+        "Propanolol",
+        "Protamina",
+        "Trimetroprim Sulfametoxazol"
+      ],
+      "estabilidad": "",
+      "luz": "No Aplica.",
+      "observaciones": [
+        "Verifique que el medicamento sea administrado a través de bomba de infusion",
+        "Evalúe una adecuada permeabilidad y funcionamiento del acceso venoso elegido para la administración del medicamento por alta osmolaridad del mismo.                                                                                                                      * admnistrar por equipo de baja absorcion (equipo Fotoprotector)",
+        "Garantizar previo inicio de la adminitracion de la solucion, acceso venoso funcional y permeable",
+        "Garantizar toma de glucometria previo, durante y posterior a la administracion de la solucion por alto riesgo de presentacion de hipoglicemia",
+        "Administrar Bolo con una brecha de tiempo MINIMA DE UNA HR"
+      ]
+    },
+    "Sulfato de magnesio": {
+      "presentacion": "Amp 10ml 20% (2 gr / 10cc) (200mg/ml)",
+      "seguridad": "Rango de seguridad\n\n1-2 gr / Dosis",
+      "via": "IV     Central - Periferico.\n        ( Ph: 5.0 - 7.0 )",
+      "tiempo": "24  hrs según respuesta\n y tolerancia del paciente al\n medicamento",
+      "concentracion": "20 - 50 mg/ml",
+      "dilucion": "24 hrs",
+      "unidad": "Gr/hr",
+      "incompatibilidades": [
+        "Aminofilina",
+        "Anfotericina B",
+        "Cloruro de Calcio",
+        "Cefepime",
+        "Ceftriaxona",
+        "Cefuroxime",
+        "Ciprofloxacina",
+        "Dexametasona",
+        "Diazepam",
+        "Fenitoina",
+        "Fitomenadiona",
+        "Haloperidol",
+        "Indometacina",
+        "Metilprednisolona"
+      ],
+      "estabilidad": "",
+      "luz": "No Aplica",
+      "observaciones": [
+        "Verifique que el medicamento sea administrado a través de bomba de infusion",
+        "Evalúe  una adecuada permeabilidad y funcionamiento del acceso venoso elegido para la administración del medicamento",
+        "Administrar por via exclusiva",
+        "NO exceda la dosis maxima de velocidad de  ( 2 gr/hr) cuando una infusion se requiera administrar de forma rapida, se deberá pasar por un tiempo minimo de 10 - 20 mins, no se recomienda la administracion en bolos",
+        "Infusiones rapidas pueden causar hipotension y/o asistolia",
+        "Garantice monitoria hemodinamica a 3 derivaciones durante la administracion del medicamento",
+        "En caso de administracion por arritmia cardiaca, evaluar periodicamente electrocardiografia o monitoria hemodinamica para evaluar respuesta y tolerancia del medicamento",
+        "No exceda una dosis diaria maxima de 40 gr/dia, por alto riesgo de generacion de falla renal"
+      ]
+    }
+  }
+}

@@ -68,10 +68,3 @@ export default function RootLayout({ children }) {
     </body>
   );
 }
-
-export const metadata = {
-  title: "Alertas de Desabastecimiento - INVIMA",
-  description:
-    "Noticias y alertas de desabastecimiento de medicamentos en Colombia (INVIMA)",
-};
-
