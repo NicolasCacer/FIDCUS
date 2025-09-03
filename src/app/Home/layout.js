@@ -1,7 +1,6 @@
 export default function RootLayout({ children }) {
   return (
-    <html lang="es">
-      <body className="bg-white text-gray-900">
+    <body className="bg-white text-gray-900">
         {/* HEADER */}
         <header className="bg-[#192a67] text-white">
           <div className="max-w-6xl mx-auto flex items-center justify-between px-4 py-3">
@@ -9,7 +8,7 @@ export default function RootLayout({ children }) {
             {/* Logo + Nombre */}
             <div className="flex items-center gap-2">
               <img
-                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik0xNi4xMjUgM3EyLjUgMCA0LjE4OCAxLjg1VDIyIDkuMjVxMCAuNDUtLjA1Ljg4OHQtLjE3NS44NjJoLTYuMjVsLTEuNy0yLjU1cS0uMTI1LS4yLS4zNS0uMzI1VDEzIDhxLS4zMjUgMC0uNTg3LjJ0LS4zNjMuNWwtMS4zNSA0LjA1bC0uODc1LTEuM3EtLjEyNS0uMi0uMzUtLjMyNVQ5IDExSDIuMjI1cS0uMTI1LS40MjUtLjE3NS0uODYyVDIgOS4yNzVRMiA2LjcgMy42NzUgNC44NVQ3Ljg1IDNxMS4yIDAgMi4yNjMuNDc1VDEyIDQuOHEuOC0uODUgMS44NjMtMS4zMjVUMTYuMTI1IDNNMTIgMjFxLS40NSAwLS44NjItLjE2MnQtLjczOC0uNDg4bC02LjctNi43MjVxLS4xNS0uMTUtLjI3NS0uM1QzLjE3NSAxM0g4LjQ1bDEuNyAyLjU1cS4xMjUuMi4zNS4zMjV0LjQ3NS4xMjVxLjMyNSAwIC42LS4ydC4zNzUtLjVsMS4zNS00LjA1bC44NSAxLjNxLjE1LjIuMzc1LjMyNVQxNSAxM2g1LjhsLS4yNS4zbC0uMjUuM2wtNi43MjUgNi43NXEtLjMyNS4zMjUtLjcyNS40ODhUMTIgMjEiLz48L3N2Zz4="
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMTYuMTI1IDNxMi41IDAgNC4xODggMS44NVQyMiA5LjI1cTAgLjQ1LS4wNS44ODh0LS4xNzUuODYyaC02LjI1bC0xLjctMi41NXEtLjEyNS0uMi0uMzUtLjMyNVQxMyA4cS0uMzI1IDAtLjU4Ny4ydC0uMzYzLjVsLTEuMzUgNC4wNWwtLjg3NS0xLjNxLS4xMjUtLjItLjM1LS4zMjVUOSAxMUgyLjIyNXEtLjEyNS0uNDI1LS4xNzUtLjg2MlQyIDkuMjc1UTIgNi43IDMuNjc1IDQuODVUNy44NSAzcTEuMiAwIDIuMjYzLjQ3NVQxMiA0LjhxLjgtLjg1IDEuODYzLTEuMzI1VDE2LjEyNSAzTTEyIDIxcS0uNDUgMC0uODYyLS4xNjJ0LS43MzgtLjQ4OGwtNi43LTYuNzI1cS0uMTUtLjE1LS4yNzUtLjNUMy4xNzUgMTNIOC40NWwxLjcgMi41NXEuMTI1LjIuMzUuMzI1dC40NzUuMTI1cS4zMjUgMCAuNi0uMnQuMzc1LS41bDEuMzUtNC4wNWwuODUgMS4zcS4xNS4yLjM3NS4zMjVUMTUgMTNoNS44bC0uMjUuM2wtLjI1LjNsLTYuNzI1IDYuNzVxLS4zMjUuMzI1LS43MjUuNDg4VDEyIDIxIi8+PC9zdmc+"
                 alt="Logo FIDCUS"
                 className="w-8 h-8"
               />
@@ -19,21 +18,18 @@ export default function RootLayout({ children }) {
             {/* Notificaciones y Perfil */}
             <div className="flex items-center gap-6">
               {/* Campana */}
-              <button className="relative">
+              <button>
                 <img
-                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik0xMiAyMmMxLjEgMCAyLS45IDItMmgtNGEyIDIgMCAwIDAgMiAybTYtNnYtNWMwLTMuMDctMS42NC01LjY0LTQuNS02LjMyVjRjMC0uODMtLjY3LTEuNS0xLjUtMS41cy0xLjUuNjctMS41IDEuNXYuNjhDNy42MyA1LjM2IDYgNy45MiA2IDExdjVsLTIgMnYxaDE2di0xeiIvPjwvc3ZnPg=="
+                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjEgMTl2MUgzdi0xbDItMnYtNmMwLTMuMSAyLjAzLTUuODMgNS02LjcxVjRhMiAyIDAgMCAxIDItMmEyIDIgMCAwIDEgMiAydi4yOWMyLjk3Ljg4IDUgMy42MSA1IDYuNzF2NnptLTcgMmEyIDIgMCAwIDEtMiAyYTIgMiAwIDAgMS0yLTIiLz48L3N2Zz4="
                   alt="Notificaciones"
                   className="w-6 h-6"
                 />
-                <span className="absolute -top-2 -right-2 bg-red-500 text-xs text-white px-1.5 py-0.5 rounded-full">
-                  3
-                </span>
               </button>
 
               {/* Perfil */}
               <div className="flex items-center gap-2 cursor-pointer">
                 <img
-                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik0xMiA0YTQgNCAwIDAgMSA0IDRhNCA0IDAgMCAxLTQgNGE0IDQgMCAwIDEtNC00YTQgNCAwIDAgMSA0LTRtMCAxMGM0LjQyIDAgOCAxLjc5IDggNHYySDR2LTJjMC0yLjIxIDMuNTgtNCA4LTQiLz48L3N2Zz4="
+                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMHMxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMk03LjM1IDE4LjVDOC42NiAxNy41NiAxMC4yNiAxNyAxMiAxN3MzLjM0LjU2IDQuNjUgMS41Yy0xLjMxLjk0LTIuOTEgMS41LTQuNjUgMS41cy0zLjM0LS41Ni00LjY1LTEuNW0xMC43OS0xLjM4YTkuOTUgOS45NSAwIDAgMC0xMi4yOCAwQTcuOTYgNy45NiAwIDAgMSA0IDEyYzAtNC40MiAzLjU4LTggOC04czggMy41OCA4IDhjMCAxLjk1LS43IDMuNzMtMS44NiA1LjEyIi8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEyIDZjLTEuOTMgMC0zLjUgMS41Ny0zLjUgMy41UzEwLjA3IDEzIDEyIDEzczMuNS0xLjU3IDMuNS0zLjVTMTMuOTMgNiAxMiA2bTAgNWMtLjgzIDAtMS41LS42Ny0xLjUtMS41UzExLjE3IDggMTIgOHMxLjUuNjcgMS41IDEuNVMxMi44MyAxMSAxMiAxMSIvPjwvc3ZnPg=="
                   alt="Perfil"
                   className="w-8 h-8"
                 />
@@ -53,8 +49,7 @@ export default function RootLayout({ children }) {
           </div>
         </footer>
       </body>
-    </html>
-  )
+  );
 }
 
 export const metadata = {
