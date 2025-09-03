@@ -1,6 +1,9 @@
+"use client";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export default function RootLayout({ children }) {
+  const router = useRouter();
   return (
     <body className="bg-white text-gray-900">
       {/* HEADER */}
@@ -19,7 +22,8 @@ export default function RootLayout({ children }) {
           {/* Notificaciones, Home y Perfil */}
           <div className="flex items-center gap-6">
             {/* Campana */}
-            <button>
+            <button
+            onClick={() => router.push("/Notifications")}>
               <img
                 src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjEgMTl2MUgzdi0xbDItMnYtNmMwLTMuMSAyLjAzLTUuODMgNS02LjcxVjRhMiAyIDAgMCAxIDItMmEyIDIgMCAwIDEgMiAydi4yOWMyLjk3Ljg4IDUgMy42MSA1IDYuNzF2NnptLTcgMmEyIDIgMCAwIDEtMiAyYTIgMiAwIDAgMS0yLTIiLz48L3N2Zz4="
                 alt="Notificaciones"
@@ -68,10 +72,4 @@ export default function RootLayout({ children }) {
     </body>
   );
 }
-
-export const metadata = {
-  title: "Alertas de Desabastecimiento - INVIMA",
-  description:
-    "Noticias y alertas de desabastecimiento de medicamentos en Colombia (INVIMA)",
-};
 
