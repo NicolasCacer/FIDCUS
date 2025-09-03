@@ -6,7 +6,7 @@ export default function Login() {
   const [showPassword, setShowPassword] = useState(false);
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center px-4 bg-gradient-to-b from-[#192a67] to-white">
+    <div className="min-h-screen flex flex-col items-center justify-center px-4 bg-gradient-to-b from-[#192a67] via-[#192a67]/90 via-40% to-white">
       {/* Logo + Nombre */}
       <div className="flex flex-col items-center mb-8">
         <div
@@ -73,8 +73,8 @@ export default function Login() {
           </div>
         </div>
 
-        {/* Botón degradado */}
-        <button className="w-full bg-gradient-to-r from-[#192a67] to-[#243B74] text-white py-2 rounded-lg font-semibold hover:opacity-90 transition">
+        {/* Botón */}
+        <button className="w-full bg-gradient-to-r from-[#192a67] to-[#3b4d8a] text-white py-2 rounded-xl font-semibold hover:opacity-90 transition">
           Entrar
         </button>
 
