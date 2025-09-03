@@ -5,8 +5,10 @@ import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Stethoscope, BookOpen, ShieldCheck } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
+  const router = useRouter();
   return (
     <div className="min-h-screen flex flex-col bg-[#192a67] text-white font-sans">
       {/* Hero */}
@@ -21,12 +23,12 @@ export default function Home() {
           </span>{" "}
           sobre medicamentos de manera confiable y centralizada.
         </p>
-        <Link
-          href="/login"
+        <button
+          onClick={() => router.push("/Login")}
           className="bg-white text-[#192a67] px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:bg-gray-100 transition transform hover:scale-105"
         >
           Iniciar Sesión
-        </Link>
+        </button>
 
         {/* Carrusel */}
         <div className="w-full max-w-md sm:max-w-2xl lg:max-w-4xl mt-12">
@@ -116,12 +118,6 @@ export default function Home() {
           Ingresa a la Farmacoteca Digital y optimiza la gestión de medicamentos
           en tu clínica.
         </p>
-        <Link
-          href="/login"
-          className="bg-white text-[#192a67] px-10 py-4 rounded-full font-semibold text-lg shadow-lg hover:bg-gray-100 transition transform hover:scale-105"
-        >
-          Ir al Login
-        </Link>
       </section>
 
       {/* Footer */}
